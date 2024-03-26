@@ -31,6 +31,59 @@ Angular CLI:
 | 11.x |	10.24.x, 12.x	| 11.x |
 | 10.x |	8.16.x, 10.x |	10.x |
 
+## Instalar o ng zorro
+
+Para instalar
+```
+npm install ng-zorro-antd@17.2.3
+```
+
+Para configurar
+```
+ng add ng-zorro-antd
+```
+
+Verificar se no arquivo style.less foi adicionado a referência do ng-zorro
+
+## Criar modulo com as libs do ng zorro
+
+Pegar exemplo
+
+## Criar Main (header)
+
+Rode o comando do ng zorro para gerar a main no mesmo nível do app.module.ts
+
+```
+ng g ng-zorro-antd:layout-top main
+```
+
+Mude o arquivo .css para .less
+Insira no arquivo, dentro de "inner-content", a tag a seguir:
+
+```
+<router-outlet></router-outlet>
+```
+
+## Criar Módulo
+
+Cria uma pasta chamada pages
+
+```
+ng g ng-zorro-antd:layout-top main
+```
+
+Mude o arquivo .css para .less
+Insira no arquivo, dentro de "inner-content", a tag a seguir:
+
+```
+<router-outlet></router-outlet>
+```
+
+
+
+
+
+
 Para rodar 
 
 ```
